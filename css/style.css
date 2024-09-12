@@ -1,0 +1,24 @@
+body{ 
+    background-image:linear-gradient(rgb(209, 176, 176), rgb(178, 178, 141), rgb(209, 176, 176));
+    font-family: 'Times New Roman', Times, serif;
+}
+h1, h3{
+    text-align: center;
+}
+.shortinfo{
+    background-color:rgba(218, 69, 156, 0.15); 
+    align-content: stretch;
+    margin: 10%;
+    border-radius: 20px;
+
+}
+.profile{
+    width: 300px; 
+    height: 400px; 
+    border-radius: 100%;
+    margin-right: 50px;
+    
+}
+p{
+    margin: 20px;
+}
