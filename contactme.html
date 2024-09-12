@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body{ 
+            background-image: linear-gradient(rgb(209, 176, 176), rgb(178, 178, 141), rgb(209, 176, 176));
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1, h3, h4{
+            text-align: center;
+        }
+        button{
+            background-color: blanchedalmond;
+            font-size: large;
+            margin-left: 30%;
+        }
+        .contactme{
+            background-color:rgba(218, 69, 156, 0.15); 
+            align-content: stretch;
+            margin: 10% 10% 5% 10%;
+            border-radius: 20px;
+        }
+       label {
+            margin: 10px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        input, textarea{
+            font-size: 16px;
+            display: block;
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        a{
+            margin: 14%;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>How to contact me</h1>
+    <form action="contactme.html">
+        <button type="submit" formaction="home.html">
+            Home
+        </button>
+        <button type="submit" formaction="hobbies.html">
+            Hobbies
+            </button>
+    </form>
+
+    <section class="contactme">
+     <h3>Write me!</h3>
+     <form action="#" method="POST">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br>
+       
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+       
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br>
+       
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    <h4>My Social Media</h4>
+    <a href="https://wa.me/87055677171">Whatsapp</a>
+    <a href="https://t.me/87055677171">Telegram</a>
+    <a href="https://wa.me/87055677171">Instagram</a>
+
+</body>
+</html>

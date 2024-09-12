@@ -22,3 +22,9 @@ h1, h3{
 p{
     margin: 20px;
 }
+
+button{
+    background-color: blanchedalmond;
+    font-size: large;
+    margin-left: 30%;
+}
